@@ -1,0 +1,164 @@
+<!-- This is a comment, it won't show up in the browser -->
+
+<!-- All HTML files have a root <html> element -->
+<html>
+    <!-- The <head> is where details about the page go -->
+    <head>
+        <!-- The title of the page -->
+        <title>Basic HTML</title>
+        
+        <!-- We'll talk about links when we talk about CSS -->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <!-- The <body> is where the websites content goes -->
+    <body>
+        <h1>This is a &#60;h1&#62;</h1>
+        <p>Use this for titles and main headings</p>
+        
+        <h2>This is a &#60;h2&#62;</h2>
+        <p>Use this for subtitles and sub headings</p>
+        
+        <h1>There are headings tags from &#60;h1&#62; to &#60;h6&#62; </h1>
+        <h1>&#60;h1&#62;</h1>
+        <h2>&#60;h2&#62;</h2>
+        <h3>&#60;h3&#62;</h3>
+        <h4>&#60;h4&#62;</h4>
+        <h5>&#60;h5&#62;</h5>
+        <h6>&#60;h6&#62;</h6>
+        
+        <p>You'll rarely use anything other than &#60;h1&#62; and &#60;h1&#62;</p>
+        
+        
+        
+        <h2>The paragraph tag &#60;p&#62;</h2>
+        <p>
+            Use this to start a new paragraph.
+            By default, HTML ignores all whitespace (spaces, tabs   , newlines
+            ) when it comes to displaying text. This allows you to make your HTML file more readable without messing with the layout of the page.
+            
+            Anything inside a &#60;p&#62;, will appear in the same paragraph.
+        </p>
+        <p>
+            If you want a new paragraph, you'll need another &#60;p&#62;.
+        </p>
+        
+        
+        
+        <h2>Lists &#60;ol&#62; and &#60;ul&#62;</h2>
+        <p>
+            We use &#60;ul&#62; for an <em>unordered</em> list. For example:
+        </p>
+        
+        <pre class="code">
+    &lt;ul&gt;
+        &lt;li&gt;Bacon&lt;/li&gt;
+        &lt;li&gt;Eggs&lt;/li&gt;
+        &lt;li&gt;Toast&lt;/li&gt;
+    &lt;/ul&gt;
+        </pre>
+        
+        <p>Gives us a bulleted list of breakfast sandwich ingredients.</p>
+        
+        <ul>
+            <li>Bacon</li>
+            <li>Eggs</li>
+            <li>Toast</li>
+        
+        </ul>
+        
+        <p>Likewise, &lt;ol&gt; gives use an ordered list.</p>
+        
+        <pre class="code">
+    &lt;ol&gt;
+        &lt;li&gt;Java&lt;/li&gt;
+        &lt;li&gt;C&lt;/li&gt;
+        &lt;li&gt;Python&lt;/li&gt;
+        &lt;li&gt;C++&lt;/li&gt;
+        &lt;li&gt;C#&lt;/li&gt;
+    &lt;/ol&gt;
+        </pre>
+        
+        <ol>
+            <li>Java</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>C#</li>
+        </ol>
+        
+        
+        
+        <h2>The &lt;pre&gt; element</h2>
+        
+        <p>The &lt;pre&gt; tag tells the browser to include all whitespace in between the start and end tags. This is great for things like code, poems, movie scripts, etc.</p>
+        
+        <pre>
+        JANUARY
+        Delightful display
+        Snowdrops bow their pure white heads
+        To the sun's glory.
+
+        Source: https://www.familyfriendpoems.com/poems/other/haiku/
+        </pre>
+        
+        <h2>Displaying spreadsheet like data &lt;table&gt;</h2>
+        
+        <p>A lot of web dev is taking spreadsheet style data and displaying it. Sometimes will make it pretty with custom UI, but if we just want the see the data as it is, using a &lt;table&gt; is a good choice.</p>
+        
+        <pre class="code">
+    &lt;table>
+        &lt;thead>
+            &lt;th>Title&lt;/th>
+            &lt;th>Rating&lt;/th>
+            &lt;th>Box Office Gross&lt;/th>
+        &lt;/thead>
+        &lt;tbody>
+            &lt;tr>
+                &lt;td>Bad Boys For Life&lt;/td>
+                &lt;td>78%&lt;/td>
+                &lt;td>$5.8M&lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td>1917&lt;/td>
+                &lt;td>89%&lt;/td>
+                &lt;td>$3.6M&lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td>The Voyage of Doctor Dolittle&lt;/td>
+                &lt;td>17%&lt;/td>
+                &lt;td>$3.5M&lt;/td>
+            &lt;/tr>
+        &lt;/tbody>
+    &lt;/table>
+        </pre>
+        
+        <table>
+            <thead>
+                <th>Title</th>
+                <th>Rating</th>
+                <th>Box Office Gross</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bad Boys For Life</td>
+                    <td>78%</td>
+                    <td>$5.8M</td>
+                </tr>
+                <tr>
+                    <td>1917</td>
+                    <td>89%</td>
+                    <td>$3.6M</td>
+                </tr>
+                <tr>
+                    <td>The Voyage of Doctor Dolittle</td>
+                    <td>17%</td>
+                    <td>$3.5M</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p>
+            <a href="index.html">Back to Table of Contents</a>
+        </p>
+    </body>
+</html>

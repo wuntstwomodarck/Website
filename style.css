@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+pre.code {
+    background-color: #444;
+    font-family: monospace;
+    color: #eee;
+    padding: 3px;
+}
+
+span.code {
+    color: #444;
+    font-family: monospace;
+}
+
+code {
+    font-family: monospace;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    padding: 4px;
+}
